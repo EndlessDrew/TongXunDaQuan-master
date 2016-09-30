@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="一站式号码服务平台"
+        android:background="#009ACD"/>
+    <ListView
+        android:id="@+id/lv_phone_type"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FDFDFD">
+
+    </ListView>
+
+<include layout="@layout/loading"/>
+</LinearLayout>
